@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cell_detailed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="30sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:maxEms="3"
+        android:text="A11"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/voltageStatus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.msbattery.batterymonitoringapp.customElements.CustomStatusBarView
+        android:id="@+id/voltageStatus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        app:color1="@color/voltageRed"
+        app:color2="@color/voltageGreen"
+        app:color3="@color/voltageRed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/voltageValue"
+        app:layout_constraintStart_toEndOf="@+id/label"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lower_barrier="3.01"
+        app:upper_barrier="4.082" />
+
+    <TextView
+        android:id="@+id/voltageValue"
+        android:layout_width="58sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:maxEms="7"
+        android:text="X.XXX V"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tempStatus"
+        app:layout_constraintStart_toEndOf="@+id/voltageStatus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.msbattery.batterymonitoringapp.customElements.CustomStatusBarView
+        android:id="@+id/tempStatus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        app:color1="@color/tempBlue"
+        app:color2="@color/tempYellow"
+        app:color3="@color/tempBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tempValue"
+        app:layout_constraintStart_toEndOf="@+id/voltageValue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lower_barrier="0"
+        app:upper_barrier="60" />
+
+    <TextView
+        android:id="@+id/tempValue"
+        android:layout_width="55sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:maxEms="7"
+        android:text="XX.X °C"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tempStatus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

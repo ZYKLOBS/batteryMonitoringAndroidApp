@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#1E1E1E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="dark_red">#A52626</color>
+    <color name="dark_green">#4CAF50</color>
+    <color name="darkmode_gray">#3b3b3b</color>
+    <color name="darkmode_gray_light">#848884</color>
+    <color name="background">#42414d</color>
+    <color name ="tempBlue">#0096FF</color>
+    <color name="tempYellow">#FFD700</color>
+    <color name="voltageRed">#A52626</color>
+    <color name="voltageGreen">#4CAF50</color>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Battery Monitoring App</string>
+    <string name="nav_open">Views</string>
+    <string name="nav_close">Close</string>
+    <string name="simple_fragment">Simple</string>
+    <string name="compact_fragment">Compact</string>
+    <string name="detailed_fragment">Detailed</string>
+    <string name="battery_status"><u>Status:</u></string>
+    <string name="logo_description">The Rub Motorsports Logo</string>
+    <string name="display_battery_status"> Displays the current status of the battery</string>
+    <string name="battery_status_okay">[OKAY]</string>
+    <string name="battery_status_Critical">[CRITICAL]</string>
+    <string name="simple_advice_box_critical">DANGER!\nCONTACT EMERGENCY CONTACTS!</string>
+    <string name="simple_advice_box_okay"></string>
+    <string name="emergency_contacts_title"><u>Emergency Contacts:</u></string>
+    <string name="emergency_contacts">Email: Teto.Kasane@rub.de
+        \n<u>Phone Number: 3.14159265358</u>
+        \n
+        \nEmail: Burger.Torten@rub.de
+        \n<u>Phone Number: 2.718281828459</u></string>
+    <string name="password_login_text">Login</string>
+    <string name="password_hint">Enter your password...</string>
+    <string name="detailed_view_segment_name">segment name</string>
+    <string name="detailed_view_min">min</string>
+    <string name="detailed_view_median">median</string>
+    <string name="detailed_view_max">max</string>
+    <string name="detailed_view_voltage_range">voltage range</string>
+    <string name="detailed_view_voltage_min">example v min</string>
+    <string name="detailed_view_voltage_median">example v median</string>
+    <string name="detailed_view_voltage_max">example v max</string>
+    <string name="detailed_view_temp_range">temp range</string>
+    <string name="detailed_view_temp_min">example t min</string>
+    <string name="detailed_view_temp_median">example t median</string>
+    <string name="detailed_view_temp_max">example t max</string>
+    <string name="detailed_view_ic_temp">IC temperatures:</string>
+    <string name="detailed_view_ic_temp_val">IC temp val</string>
+    <string name="compact_view_error_message1">Example error meessage1</string>
+    <string name="compact_view_error_message2">Example error meessage2</string>
+    <string name="compact_view_error_message3">Example error meessage3</string>
+    <string name="compact_view_error_message4">Example error meessage4</string>
+    <string name="compact_view_temp">Temperature</string>
+    <string name="compact_view_volt">Voltage</string>
+
+
+</resources>

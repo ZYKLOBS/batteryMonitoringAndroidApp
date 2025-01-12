@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomStatusBarView">
+        <attr name="color1" format="color" />
+        <attr name="color2" format="color"/>
+        <attr name="color3" format="color"/>
+        <attr name="lower_barrier" format="float" />
+        <attr name="upper_barrier" format="float" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="lineColor" format="color" />
+        <attr name="indicatorLineWidth" format="dimension"/>
+    </declare-styleable>
+
+</resources>
