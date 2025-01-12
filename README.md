@@ -1,3 +1,6 @@
+#Attention !
+This is a copy & paste from a private repo that was worked on during a university course.
+I got the permission of everyone involved to upload it here as a public repo so people can easily access the code.
 # Battery Monitoring App
 
 This app was developed as part of the Software Engineering Labs module at Ruhr University Bochum. It works with data from a battery in a RUB Motorsports vehicle, reading the data stream sent by the battery controller via a WebSocket and displaying it appropriately.
