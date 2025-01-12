@@ -1,4 +1,4 @@
-#Attention !
+# Attention !
 This is a copy & paste from a private repo that was worked on during a university course.
 I got the permission of everyone involved to upload it here as a public repo so people can easily access the code.
 # Battery Monitoring App
