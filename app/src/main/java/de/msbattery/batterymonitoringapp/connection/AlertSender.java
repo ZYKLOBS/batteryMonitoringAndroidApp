@@ -93,10 +93,10 @@ public class AlertSender {
     }
 
     public AlertSender(Context context) {
-        this.host = "mail.nikisoft.one";
-        this.port = "465";
-        this.email = "motorsport@cookiezz.de";
-        this.password = "WMcsH8x@";
+        this.host = "EXAMPLE"
+        this.port = "EXAMPLE"
+        this.email = "EXAMPLE"
+        this.password = "EXAMPLE"
 
 
         lastContext = context;
